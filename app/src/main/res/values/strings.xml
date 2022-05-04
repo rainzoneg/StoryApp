@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">StoryApp</string>
+    <string name="app_logo">App Logo</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="back_to_login">Back to login</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="lorem_ipsum_short">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="logout">Logout</string>
+    <string name="add">Add</string>
+    <string name="add_new_story">Add New Story</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="enter_your_story">Enter your story...</string>
+    <string name="upload">Upload</string>
+    <string name="or">Or</string>
+    <string name="user_name">User Name</string>
+    <string name="story_content">Story Content</string>
+    <string name="change_language">Change Language</string>
+    <string name="image_preview">Image Preview</string>
+    <string name="title_activity_map_story">MapStoryActivity</string>
+    <string name="maps">Maps</string>
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satellite</string>
+    <string name="terrain_type">Terrain</string>
+    <string name="hybrid_type">Hybrid</string>
+    <string name="reload">Reload</string>
+    <string name="location">Location</string>
+    <string name="nulls">null</string>
+
+</resources>

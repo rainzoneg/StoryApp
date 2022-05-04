@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/maps"
+        android:icon="@drawable/ic_maps"
+        android:title="@string/maps"
+        android:contentDescription="@string/maps"
+        app:showAsAction="collapseActionView|always" />
+
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/ic_baseline_add_24"
+        android:title="@string/add"
+        android:contentDescription="@string/add_new_story"
+        app:showAsAction="collapseActionView|always"/>
+
+    <item
+        android:id="@+id/localization"
+        android:icon="@drawable/ic_localization"
+        android:title="@string/change_language"
+        android:contentDescription="@string/change_language"
+        app:showAsAction="collapseActionView|always"/>
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_baseline_logout_24"
+        android:title="@string/logout"
+        android:contentDescription="@string/logout"
+        app:showAsAction="collapseActionView|always" />
+
+
+
+
+
+</menu>

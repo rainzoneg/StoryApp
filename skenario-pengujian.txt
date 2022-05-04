@@ -1,0 +1,90 @@
+UI Tests
+ListStoryViewModel Test
+a.Ketika berhasil memuat data story 
+    -Memastikan data story tidak null.
+    -Memastikan jumlah data story sesuai dengan yang diharapkan.
+    -Memastikan data story yang dimuat sesuai dengan ekspektasi.
+b.Ketika berhasil memuat token
+    -Memastikan hasil token tidak null.
+    -Memastikan token yang diambil sama dengan yang diharapkan.
+c.Ketika berhasil menghapus token
+    -Memastikan bahwa fungsi deleteSessionInfo() milik objek pref view model dipanggil.
+
+RegisterViewModel Test
+a.Ketika berhasil register
+    -Memastikan bahwa diperoleh response register berhasil dengan error false.
+b.Ketika gagal register
+    -Memastikan bahwa diperoleh response register gagal dengan error true.
+
+MapStoryViewModel Test
+a.Ketika berhasil memuat token untuk request story dengan location
+    -Memastikan hasil token tidak null.
+    -Memastikan token yang diambil sama dengan yang diharapkan.
+b.Ketika berhasil memuat data story dengan location untuk map
+    -Memastikan data story dari LiveData didapat dan tidak null.
+    -Memastikan jumlah data story yang dimuat sama sesuai harapan.
+    -Memastikan data story yang dimuat sama sesuai dengan harapan.
+
+MainViewModel Test
+a.Ketika berhasil login
+    -Memastikan diperoleh response login berhasil dengan error false.
+    -Memastikan pada response login berhasil diperoleh message "success".
+b.Ketika gagal login
+    -Memastikan diperoleh response login gagal dengan error true.
+    -Memastikan data response login gagal diperoleh message "Invalid Password".
+c.Ketika berhasil memuat token
+    -Memastikan bahwa diperoleh token tidak null.
+    -Memastikan bahwa token yang diperoleh sesuai dengan harapan.
+d.Ketika berhasil menyimpan data session
+    -Memastikan dilakukan pemanggilan fungsi saveSessionInfo(parameter) objek pref.
+
+AddStoryViewModel Test
+a.Ketika berhasil memuat token
+    -Memastikan bahwa diperoleh token tidak null
+    -Memastikan bahwa token yang diperoleh sesuai expected value.
+b.Ketika upload story baru berhasil
+    -Memastikan bahwa diperoleh response berhasil dengan error false.
+c.Ketika upload story baru gagal
+    -Memastikan bahwa diperoleh response gagal dengan error true.
+
+StoryRepository Test
+a.Ketika berhasil memuat story dari repository
+    -Memastikan bahwa diperoleh LiveData PagingData dari repository berhasil dan tidak null.
+    -Memastikan bahwa nilai data yang diperoleh sesuai dengan harapan.
+
+Integrated Test
+ListStoryActivity Test
+a.Ketika berhasil load data story 
+    -Memastikan bahwa RecyclerView tampil.
+    -Memastikan bahwa item-item menu tampil.
+    -Memastikan bahwa RecyclerView berisi data dan dapat discroll ke posisi isi tertentu.
+b.Ketika berinteraksi dengan item story di RecyclerView.
+    -Memastikan bahwa item story di RecyclerView dapat diklik.
+    -Memastikan bahwa klik item tersebut menuju ke halaman detail.
+
+AddStoryActivity Test
+a.Ketika berhasil load activity
+    -Memastikan seluruh komponen/view Activity berhasil tampil.
+
+End-to-End Test
+MainTest
+a.Menampilkan list story dan detailnya
+    -Memastikan bahwa RecyclerView story berhasil dimuat dan tampil.
+    -Memastikan item menu Activity tampil.
+    -Memastikan RecyclerView berisi data story dan dapat discroll ke posisi tertentu.
+    -Memastikan item story RecyclerView dapat diklik dan menuju ke detail story tersebut.
+    -Memastikan isi detail story tampil.
+    -Memastikan dapat kembali dengan back ke Activity list kembali dan menampilkan list lagi.
+b.Menampilkan list, ke halaman menambah story dan ke activity Camera
+    -Memastikan tombol menu 'add' menuju halaman menambah story berfungsi sesuai harapan.
+    -Memastikan tombol menuju activity camera tampil dan dapat diklik.
+    -Memastikan tombol camera tersebut menuju ke CameraActivity.
+    -Memastikan pada activity Camera ditampilkan komponen PreviewView serta tombol capture.
+    -Memastikan dapat kembali dengan tombol back ke halaman menambah story.
+c.Mencoba mengambil gambar pada halaman Camera
+    -Memastikan dapat ke halaman menambah story dan dapat menekan tombol camera ke halaman Camera.
+    -Memastikan dapat mengklik tombol capture untuk mengambil gambar dengan kamera.
+d.Menampilkan halaman Map Story
+    -Memastikan pada halaman list terdapat item menu map untuk menuju ke halaman Map.
+    -Memastikan pada halaman map, Google Map berhasil dimuat dan tampil.
+    -Memastikan dapat kembali dengan tombol back ke halaman list kembali.

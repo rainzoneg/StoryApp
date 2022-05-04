@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">StoryApp</string>
+    <string name="app_logo">Logo App</string>
+    <string name="enter_your_email">Masukkan email anda</string>
+    <string name="enter_your_password">Masukkan password anda</string>
+    <string name="login">Masuk</string>
+    <string name="register">Daftar</string>
+    <string name="back_to_login">Kembali ke halaman masuk</string>
+    <string name="enter_your_name">Masukkan nama anda</string>
+    <string name="lorem_ipsum_short">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="logout">Keluar</string>
+    <string name="add">Tambah</string>
+    <string name="add_new_story">Tambahkan cerita baru</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="enter_your_story">Ketikkan cerita anda...</string>
+    <string name="upload">Unggah</string>
+    <string name="or">Atau</string>
+    <string name="user_name">Nama Pengguna</string>
+    <string name="story_content">Isi Cerita</string>
+    <string name="change_language">Ubah Bahasa</string>
+    <string name="image_preview">Preview Gambar</string>
+    <string name="title_activity_map_story">MapStoryActivity</string>
+    <string name="maps">Peta</string>
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satelit</string>
+    <string name="terrain_type">Daerah</string>
+    <string name="hybrid_type">Campuran</string>
+    <string name="reload">Reload</string>
+    <string name="location">Lokasi</string>
+    <string name="nulls">null</string>
+
+</resources>
